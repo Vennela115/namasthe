@@ -1,0 +1,42 @@
+git and git hub both are different
+npm is not equal to node package manager it has different names but we can say it as package manager
+packaGE.JSON is configuration of npm
+webpack ,parcel , vite are bundlers of react they pack all files for production
+^ caret upgrades  packagejson to minor versions
+~tlide upgrades packagejson to major version
+
+PACKAGE.LOCKJSON
+it keeps a track of exact day to day version
+package json depends on parcel and parcel depend on others which is said to be transitive dependency
+nodumodules is  like database
+if we have packagejson or  packagelockjson we can reload all nodemodules again
+npm is same like npx,npx is used for executing npm modules
+react can be bought by npm or cdn links
+cdn is not preferred way of bringing react into our project so we use npm
+npm i is short form of npm install
+
+
+//if u want run code in new company just go through scripts  in package jsonand u can easily run the project
+
+
+parcel does all these
+--devbuild
+--local server
+--hmr-hot module replacement
+--filewatching  -which is written in cpp
+--caching-faster builds
+--Image optimisation
+--bundler so bundle things upgrades
+--minification
+--compress
+--consistent hashing
+--code splitting
+--differential bundlings-old browser recovery
+https
+--tree shaking
+--error handling
+--different dev and prod bundlers
+
+
+
+SIMPLY PARCEL IS AAAAAAAAA BEEEEEEEEEEAAAAASSSSSSSTTTTTTTTT.

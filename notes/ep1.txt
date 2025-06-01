@@ -1,0 +1,3 @@
+learnt basics of html javascript and how to create html elements using javascript
+render plays major role for designing html element as it is
+array of creating objects can be done

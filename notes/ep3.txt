@@ -1,0 +1,47 @@
+/*/*const heading=React.createElement("h1",{id: "heading",xyz:"abc"},"Hello world from react iinside it");
+    const root=ReactDOM.createRoot(document.getElementById("root"));
+    root.render(heading);
+
+
+    //reactelement(object)=>html(browser understands)
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+const parent = React.createElement(
+  "div",
+  { id: "parent" },
+  React.createElement(
+    "div",
+    { id: "child10" },
+    [
+      React.createElement("h1", { key: "child10-h1" }, "This is Namasthe"),
+      React.createElement("h2", { key: "child10-h2" }, "done b no")
+    ]
+  ),
+  React.createElement(
+    "div",
+    { id: "child12" },
+    [
+      React.createElement("h1", { key: "child12-h1" }, "I am an h1 tag"),
+      React.createElement("h2", { key: "child12-h2" }, "I am an h2 tag")
+    ]
+  )
+);
+
+console.log(parent);
+const rootElement = document.getElementById("root");
+const root = ReactDOM.createRoot(rootElement);
+root.render(parent);
+*/
+ jsx is different from html elements in javascript jsx is one of the model like html but not js with html remember
+
+const fn=()=>true;==== const fn=(){=>true};
+
+
+
+
+
+npm start==npm run start
+//babel a tranpiler or compiler will convert alljsx
+ code into html
+ //jsx file sanitizes the code

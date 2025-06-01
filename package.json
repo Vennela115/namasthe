@@ -1,0 +1,22 @@
+{
+  "name": "namasthe",
+  "version": "1.0.0",
+  "description": "Namasthe React by Vennela",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "6.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions"
+  ]
+}

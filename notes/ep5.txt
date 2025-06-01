@@ -1,0 +1,8 @@
+#React Hooks
+normal js utility functions
+useState()==super powerful react variables
+useEffect()
+
+
+
+//whenever state variable changes react rerender its objects

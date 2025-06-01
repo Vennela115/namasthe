@@ -1,0 +1,37 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+// JSX element transpiled before it reaches js -parcel-babel
+//React element
+const Title= (<h1 className="head" tabIndex="5">Namaste React using JSX by vennela ya itzme
+</h1>);
+//React component
+//Class Based component-old
+//function based component-new
+
+//react functional component
+/*const HeadingComponent=()=>{
+    return <h1>Namasthe react functional component</h1>;
+};*/
+const number=10000;
+const HeadingComponent=()=>(
+    <div id="container">{number} <h2>{30+20}</h2><h1 className="head" tabIndex="5">Mamasthe</h1><h1 className="heading">Namasthe react functional component</h1> </div>
+);
+
+
+
+// Render JSX to the root element
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<HeadingComponent />); // ✅ Use correct variable name
+
+/*import React from "react";
+import ReactDOM from "react-dom/client";
+//React .createElement=>object=>htmlelement(render)
+// React Element using JSX
+const heading=React.createElement("h1",{id:"heading"},"Namasthe react this isvennh");
+console.log("heading");
+const jsxHeading = <h1 id="heading">Namaste  is React using JSX</h1>;
+console.log("jsxHeading");
+// Rendering the element
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(jsxheading);*/
