@@ -12,7 +12,7 @@ const RestaurantCard = (props) => {
   const  deliveryTime= resData?.sla?.deliveryTime;  
     
     
-  console.log(resData.name);
+  console.log(resData);
   return (
     <div
       className="res-card"
@@ -30,8 +30,8 @@ const RestaurantCard = (props) => {
         <h3>{name}</h3>
         <hr />
         <em>{Array.isArray(cuisines) ? cuisines.join(', ') : 'N/A'}</em>
-        <h4>{avgRating} stars</h4>
-        <h4>₹{costForTwo / 100} FOR TWO</h4>
+        <h4>{parseFloat((avgRating-0.3).toFixed(1))} stars</h4>
+        <h4>{costForTwo } </h4>
         <h4>{deliveryTime} minutes</h4>
       </div>
     </div>
